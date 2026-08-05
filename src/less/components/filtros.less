@@ -1,0 +1,27 @@
+.barra-filtros {
+  background-color: var(--color-blanco);
+  padding: 14px 40px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--color-gris-claro);
+}
+
+.boton-filtro {
+  background: transparent;
+  border: 1.5px solid #ccc;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-family: var(--fuente-texto);
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--color-gris);
+  transition: all 0.2s;
+}
+
+.boton-filtro:hover,
+.boton-filtro.activo {
+  background-color: var(--color-verde);
+  border-color: var(--color-verde);
+  color: var(--color-blanco);
+}

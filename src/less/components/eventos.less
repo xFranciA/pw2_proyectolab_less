@@ -1,0 +1,178 @@
+/* Evento destacado con fecha grande a la izquierda */
+.evento-destacado {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  border-left: 5px solid var(--color-dorado);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.bloque-fecha {
+  background-color: var(--color-verde);
+  color: var(--color-blanco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.bloque-fecha .mes {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.bloque-fecha .dia {
+  font-family: var(--fuente-titulo);
+  font-size: 52px;
+  line-height: 1;
+  color: var(--color-dorado-claro);
+}
+
+.bloque-fecha .anio {
+  font-size: 12px;
+  opacity: 0.55;
+}
+
+.info-evento {
+  padding: 20px 24px;
+}
+
+.info-evento h3 {
+  font-family: var(--fuente-titulo);
+  font-size: 20px;
+  color: #1a1a1a;
+  margin: 8px 0;
+}
+
+.info-evento .meta-evento {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.info-evento p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Tarjeta de evento normal */
+.tarjeta-evento {
+  padding: 22px 20px;
+  border-top: 4px solid var(--color-dorado);
+}
+
+.tarjeta-evento .fecha-evento {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-verde-medio);
+  margin-bottom: 10px;
+}
+
+.tarjeta-evento h4 {
+  font-family: var(--fuente-titulo);
+  font-size: 17px;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.tarjeta-evento p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.65;
+}
+
+.tarjeta-evento .lugar {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Banner de campaña especial */
+.banner-campania {
+  background-color: var(--color-negro-suave);
+  border: 1px solid var(--color-dorado);
+  border-radius: 14px;
+  padding: 28px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  color: var(--color-blanco);
+}
+
+.banner-campania h3 {
+  font-family: var(--fuente-titulo);
+  font-size: 22px;
+  color: var(--color-dorado-claro);
+  margin-bottom: 8px;
+}
+
+.banner-campania p {
+  font-size: 14px;
+  opacity: 0.85;
+  line-height: 1.65;
+}
+
+/* Evento pasado */
+.evento-pasado {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  background-color: var(--color-blanco);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  opacity: 0.7;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.fecha-pasado {
+  background-color: var(--color-gris-claro);
+  border-radius: 8px;
+  padding: 8px 14px;
+  text-align: center;
+  min-width: 58px;
+}
+
+.fecha-pasado .mes-p {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.fecha-pasado .dia-p {
+  font-family: var(--fuente-titulo);
+  font-size: 24px;
+  color: #666;
+  line-height: 1;
+}
+
+.info-pasado h5 {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.info-pasado p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.estado-pasado {
+  margin-left: auto;
+  font-size: 11px;
+  background-color: #eee;
+  color: #888;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
