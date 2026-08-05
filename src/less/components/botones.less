@@ -1,0 +1,44 @@
+.boton {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-family: var(--fuente-texto);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.85;
+    }
+
+    &-dorado {
+        background-color: var(--color-dorado);
+        color: var(--color-negro);
+    }
+
+    &-verde {
+        background-color: var(--color-verde);
+        color: var(--color-blanco);
+    }
+
+    &-borde {
+        background: transparent;
+        border: 2px solid var(--color-dorado);
+        color: var(--color-dorado);
+    }
+
+    &-blanco {
+        background-color: var(--color-blanco);
+        color: var(--color-verde);
+    }
+
+    &-borde-blanco {
+        background: transparent;
+        border: 2px solid var(--color-blanco);
+        color: var(--color-blanco);
+        margin-left: 10px;
+    }
+}

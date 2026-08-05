@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  {{> head}}
+    <script defer src="src/scripts/java.js"></script>
+</head>
+<body>
+
+  {{> header}}
+
+  <main class="sl-main">
+
+    <section class="seccion-hero">
+      <div class="contenido-hero">
+        <span class="etiqueta-hero">Tu salud, nuestra prioridad</span>
+        <h1>Nuestros <span>Servicios</span></h1>
+        <p>
+          Ponemos a disposición de nuestros pacientes una variedad de estudios clínicos
+          con atención profesional, resultados confiables y un servicio orientado al
+          cuidado integral de la salud.
+        </p>
+        <br>
+      </div>
+    </section>
+
+    <section class="contenido-principal">
+      <div class="aviso aviso-verde">
+        <strong>Atención clínica con confianza y precisión:</strong> En el Laboratorio Clínico Santa Lucía ofrecemos exámenes de rutina,
+        pruebas especiales y estudios de apoyo al diagnóstico, realizados con
+        responsabilidad, confidencialidad y compromiso con cada paciente.
+      </div>
+
+      <h2 class="titulo-seccion" id="servicios-destacados">Áreas de servicio</h2>
+      <div class="aviso aviso-dorado">
+        Estos son algunos de los principales estudios y programas de atención que
+        ofrecemos para contribuir al bienestar y seguimiento de la salud de nuestros pacientes.
+      </div>
+
+      <div class="fila-3">
+
+        <div class="tarjeta sl-card">
+          <img src="imgs/Servicios/Hematologia clinica.jpg" alt="Hematología clínica" class="sl-card-img" />
+          <div class="sl-card-body">
+            <span class="etiqueta etiqueta-dorada">Servicio</span>
+            <h3 class="sl-card-title">Hematología clínica</h3>
+            <p class="sl-card-excerpt">
+              Realizamos estudios relacionados con componentes sanguíneos para apoyar
+              la detección y control de distintas condiciones médicas.
+            </p>
+            <p><strong>Incluye:</strong> Hemograma completo, Tipo y RH.</p>
+          </div>
+        </div>
+
+        <div class="tarjeta sl-card">
+          <img src="imgs/Servicios/Analisis clinicos de rutina.jpg" alt="Análisis clínicos de rutina" class="sl-card-img" />
+          <div class="sl-card-body">
+            <span class="etiqueta etiqueta-verde">Rutina</span>
+            <h3 class="sl-card-title">Análisis clínicos de rutina</h3>
+            <p class="sl-card-excerpt">
+              Exámenes frecuentes que permiten evaluar el estado general del organismo
+              y apoyar diagnósticos iniciales.
+            </p>
+            <p><strong>Incluye:</strong> Examen General de Orina, Examen General de Heces.</p>
+          </div>
+        </div>
+
+        <div class="tarjeta sl-card">
+          <img src="imgs/Servicios/Pruebas especiales.jpg" alt="Pruebas especiales" class="sl-card-img" />
+          <div class="sl-card-body">
+            <span class="etiqueta etiqueta-dorada">Especial</span>
+            <h3 class="sl-card-title">Pruebas especiales</h3>
+            <p class="sl-card-excerpt">
+              Estudios específicos orientados a la detección de condiciones
+              puntuales y al seguimiento médico oportuno.
+            </p>
+            <p><strong>Incluye:</strong> Prueba de Embarazo en orina y sangre, Factor Reumatoideo.</p>
+          </div>
+        </div>
+
+        <div class="tarjeta sl-card">
+          <img src="imgs/Servicios/Deteccion infecciones.jpg" alt="Detección de infecciones" class="sl-card-img" />
+          <div class="sl-card-body">
+            <span class="etiqueta etiqueta-verde">Detección</span>
+            <h3 class="sl-card-title">Detección de infecciones</h3>
+            <p class="sl-card-excerpt">
+              Apoyamos el diagnóstico mediante pruebas que ayudan a identificar
+              infecciones y procesos inflamatorios en el organismo.
+            </p>
+            <p><strong>Incluye:</strong> Proteína C Reactiva, H. pylori en sangre y heces, VIH.</p>
+          </div>
+        </div>
+
+        <div class="tarjeta sl-card">
+          <img src="imgs/Servicios/Perfil Hepatico.jpg" alt="Perfil hepático" class="sl-card-img" />
+          <div class="sl-card-body">
+            <span class="etiqueta etiqueta-dorada">Perfil</span>
+            <h3 class="sl-card-title">Perfil hepático</h3>
+            <p class="sl-card-excerpt">
+              Estudios orientados a evaluar el funcionamiento del hígado y detectar
+              alteraciones relacionadas con este órgano.
+            </p>
+            <p><strong>Incluye:</strong> Hepatitis A, B y C, TGO y TGP.</p>
+          </div>
+        </div>
+
+        <div class="tarjeta sl-card">
+          <img src="imgs/Servicios/Quimica sanguinea.jpg" alt="Química sanguínea" class="sl-card-img" />
+          <div class="sl-card-body">
+            <span class="etiqueta etiqueta-verde">Análisis</span>
+            <h3 class="sl-card-title">Química sanguínea</h3>
+            <p class="sl-card-excerpt">
+              Exámenes importantes para valorar niveles en sangre y monitorear
+              condiciones metabólicas y renales.
+            </p>
+            <p><strong>Incluye:</strong> Glucosa, Colesterol, Triglicéridos, Urea/BUN.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <h2 class="titulo-seccion">Lista de exámenes disponibles</h2>
+      <div class="aviso aviso-verde">
+        Además de nuestras áreas principales, contamos con una variedad de estudios
+        solicitados frecuentemente por nuestros pacientes.
+      </div>
+
+      <div class="fila-2">
+        <div class="tarjeta" style="padding: 24px;">
+          <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 14px;">Exámenes más solicitados</h3>
+          <div class="lista-acciones">
+            <div>• Hemograma completo</div>
+            <div>• Tipo y RH</div>
+            <div>• Examen General de Orina</div>
+            <div>• Prueba de Embarazo en orina</div>
+            <div>• Prueba de Embarazo en sangre</div>
+            <div>• Glucosa</div>
+            <div>• Colesterol</div>
+          </div>
+        </div>
+
+        <div class="tarjeta" style="padding: 24px;">
+          <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 14px;">Exámenes complementarios</h3>
+          <div class="lista-acciones">
+            <div>• Triglicéridos</div>
+            <div>• TGO y TGP</div>
+            <div>• Urea / BUN</div>
+            <div>• Proteína C Reactiva</div>
+            <div>• Factor Reumatoideo</div>
+            <div>• H. pylori en sangre y heces</div>
+            <div>• VIH, Hepatitis A, B y C</div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="titulo-seccion">Recomendaciones para el paciente</h2>
+      <div class="aviso aviso-dorado">
+        Algunas pruebas pueden requerir indicaciones previas.
+
+        <div>• Consultar si debe presentarse en ayunas</div>
+        <div>• Llevar la orden médica en caso de ser necesaria</div>
+        <div>• Confirmar horarios de atención</div>
+        <div>• Verificar el tipo de muestra requerida</div>
+        <div>• Solicitar orientación previa cuando tenga dudas</div>
+      </div>
+
+
+      <div class="banner-campania">
+        <div>
+          <h3>Comprometidos con tu salud</h3>
+          <p>
+            Nuestro laboratorio trabaja con responsabilidad, atención personalizada y
+            estudios clínicos enfocados en ofrecer resultados útiles para la prevención,
+            el diagnóstico y el seguimiento médico.
+          </p>
+        </div>
+        <a href="contacto.html" class="boton boton-dorado">Solicitar información</a>
+      </div>
+    </section>
+
+  </main>
+
+  {{> footer}}
+
+</body>
+</html>
