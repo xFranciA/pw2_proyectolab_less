@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+  {{> head}}
+          <script src="src/scripts/blog_contacto.js"></script>
+</head>
+    <body>
+        {{> header}}
+
+        <section class="seccion-hero">
+            <div class="contenido-hero">
+                <span class="etiqueta-hero">Actualidad</span>
+                <h1>Nuestro <span>Blog</span> Clínico</h1>
+                <p>Información de salud, tecnología médica y consejos para tu bienestar integral.</p>
+            </div>
+        </section>
+
+        <main class="contenido-principal">
+            <h2 class="titulo-seccion">Últimas Publicaciones</h2>
+            <div class="fila-blog" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; margin-bottom: 40px;">
+                
+                <article class="card">
+                    <img src="imgs/lab6.jpeg" alt="Servicios Integrales" class="img-blog">
+                    <span class="etiqueta etiqueta-verde">Institucional</span>
+                    <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 10px;">Nuestra Cartilla de Servicios</h3>
+                    <p style="margin-bottom: 20px; font-size: 14px;">Conoce la amplia gama de exámenes que ofrecemos: desde hemogramas completos hasta pruebas de embarazo y VIH.</p>
+                </article>
+
+                <article class="card" >
+                    <img src="imgs/lab2.jpeg" alt="Pruebas Rápidas" class="img-blog">
+                    <span class="etiqueta etiqueta-dorada">Diagnóstico</span>
+                    <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 10px;">Detección rápida de Dengue</h3>
+                    <p style="margin-bottom: 20px; font-size: 14px;">La importancia de un diagnóstico temprano mediante pruebas combinadas para actuar a tiempo ante virus estacionales.</p>
+                </article>
+
+                <article class="card" >
+                    <img src="imgs/lab3.jpeg" alt="Automatización" class="img-blog">
+                    <span class="etiqueta etiqueta-verde">Innovación</span>
+                    <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 10px;">Automatización Clínica</h3>
+                    <p style="margin-bottom: 20px; font-size: 14px;">Descubre cómo los analizadores modernos reducen el tiempo de espera y aumentan la confiabilidad de tus resultados.</p>
+                </article>
+
+                <article class="card" >
+                    <img src="imgs/lab4.jpeg" alt="Especialidades" class="img-blog">
+                    <span class="etiqueta etiqueta-dorada">Servicios</span>
+                    <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 10px;">Hematología y Química Sanguínea</h3>
+                    <p style="margin-bottom: 20px; font-size: 14px;">Exploramos las principales áreas del laboratorio que ayudan a detectar desde anemias hasta problemas metabólicos.</p>
+                </article>
+
+                <article class="card" >
+                    <img src="imgs/lab5.jpeg" alt="Muestras" class="img-blog">
+                    <span class="etiqueta etiqueta-verde">Consejos</span>
+                    <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 10px;">Toma correcta de muestras</h3>
+                    <p style="margin-bottom: 20px; font-size: 14px;">Guía rápida sobre cómo preparar y entregar tus muestras de orina y heces para evitar contaminaciones o errores.</p>
+                </article>
+
+                <article class="card" >
+                    <img src="imgs/lab1a.jpeg" alt="Tecnología Precisa" class="img-blog">
+                    <span class="etiqueta etiqueta-dorada">Tecnología</span>
+                    <h3 style="font-family: var(--fuente-titulo); color: var(--color-verde); margin-bottom: 10px;">Precisión en cada proceso</h3>
+                    <p style="margin-bottom: 20px; font-size: 14px;">Contamos con equipos de última generación para garantizar resultados exactos en tus análisis de rutina.</p>
+                </article>
+
+            </div>
+        </main>
+
+        {{> footer}}
+    </body>
+</html>
