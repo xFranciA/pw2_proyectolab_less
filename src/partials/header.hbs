@@ -1,0 +1,30 @@
+<header>
+  <nav class="barra-nav">
+    <div>
+      <div class="hamburger-buttons" id="btn-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="logo-nav">
+      <a href="index.html">
+        <img src="imgs/logo1.png" alt="Logo Laboratorio Santa Lucía" />
+      </a>
+    </div>
+
+    <ul class="menu-nav" id="menu">
+      <li><a href="index.html" class="{{#if (eq activeNav "inicio")}}pagina-activa{{/if}}">Inicio</a></li>
+      <li><a href="nosotros.html" class="{{#if (eq activeNav "nosotros")}}pagina-activa{{/if}}">Nosotros</a></li>
+      <li><a href="servicios.html" class="{{#if (eq activeNav "servicios")}}pagina-activa{{/if}}">Servicios</a></li>
+      <li><a href="ayudar.html" class="{{#if (eq activeNav "ayudar")}}pagina-activa{{/if}}">Cómo Ayudar</a></li>
+      <li><a href="galeria.html" class="{{#if (eq activeNav "galeria")}}pagina-activa{{/if}}">Portafolio</a></li>
+      <li><a href="blog.html" class="{{#if (eq activeNav "blog")}}pagina-activa{{/if}}">Blog</a></li>
+      <li><a href="eventos.html" class="{{#if (eq activeNav "eventos")}}pagina-activa{{/if}}">Eventos</a></li>
+      <li><a href="donaciones.html" class="{{#if (eq activeNav "donaciones")}}pagina-activa{{/if}}">Donaciones</a></li>
+      <li><a href="contacto.html" class="{{#if (eq activeNav "contacto")}}pagina-activa{{/if}}">Contáctenos</a></li>
+      <li><a href="fpreguntas.html" class="{{#if (eq activeNav "fpreguntas")}}pagina-activa{{/if}}">FAQ's</a></li>
+    </ul>
+  </nav>
+</header>
