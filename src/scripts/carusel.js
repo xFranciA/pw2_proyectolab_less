@@ -21,6 +21,10 @@ function moveSlide(n) {
     showSlides(slideIndex += n);
 }
 
+// Se expone en window porque index.html usa onclick="moveSlide(...)" inline
+// y, al ser este script un módulo ES, sus funciones ya no son globales por defecto.
+window.moveSlide = moveSlide;
+
 window.onload = function() {
     showSlides(slideIndex);
 };

@@ -14,6 +14,12 @@ function slCerrarModal(id) {
   document.body.style.overflow = '';
 }
 
+// Se exponen en window porque donaciones.html usa onclick="slAbrirModal(...)"
+// y onclick="slCerrarModal(...)" inline, y al ser este script un módulo ES,
+// sus funciones ya no son globales por defecto.
+window.slAbrirModal = slAbrirModal;
+window.slCerrarModal = slCerrarModal;
+
 /* ── CERRAR AL HACER CLIC FUERA DEL MODAL ── */
 (function () {
   document.querySelectorAll('.sl-modal-overlay').forEach(function (overlay) {
